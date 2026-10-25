@@ -4,34 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-</head>
-<body>
+    <title>Tech Club</title>
+    
 
-    <h1>Registration Form</h1>
 
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"
-               placeholder="Enter your name" required>
 
-        <br><br>
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#events">Events</a> |
+        <a href="#register">Register</a>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"
-               placeholder="Enter your email" required>
+    </nav>
 
-        <br><br>
+    <!-- Main Heading -->
+    <h1>Tech Club</h1>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password"
-               placeholder="Enter your password" required>
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
 
-        <br><br>
+        <table border="1">
+            <caption>Club Events</caption>
 
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-    </form>
+            <tr>
+                <th>Event</th>
+                <th>Date</th>
+                <th>Venue</th>
+            </tr>
+
+            <tr>
+                <td>HTML Workshop</td>
+                <td>25 Dec</td>
+                <td>Lab 7</td>
+            </tr>
+
+            <tr>
+                <td>Hackathon</td>
+                <td>29 Dec</td>
+                <td>Seminar Hall 1 and 2 </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Total events: 2</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register">
+        <h2>Register for Tech Club</h2>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"
+                   placeholder="Enter your password" required>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+>
+>
+
 
 </body>
 </html>
