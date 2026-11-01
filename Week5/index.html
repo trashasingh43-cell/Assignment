@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Club</title>
+    <style> 
+ 
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f3ff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        header {
+            background-color: #3159ed;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #222;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #3159ed;
+            color: white;
+            text-align: left;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        input {
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #3159ed;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2345c7;
+        }
+    </style>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#events">Events</a> |
+        <a href="#register">Register</a>
+    </nav>
+
+    <!-- Main Heading -->
+    <h1>Tech Club</h1>
+
+    <!-- Upcoming Events -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+
+        <table border="1">
+            <caption>Club Events</caption>
+
+            <thead>
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML Workshop</td>
+                    <td>12 Nov</td>
+                    <td>Lab 1</td>
+                </tr>
+
+                <tr>
+                    <td>Hackathon</td>
+                    <td>20 Nov</td>
+                    <td>Seminar Hall</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total events: 2</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register">
+        <h2>Register</h2>
+
+        <form action="#" method="post">
+
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Your name" required>
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password"
+                   name="password" required>
+            <br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+
+            <!-- Phone -->
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+            <!-- Gender -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Interests -->
+            <label>Interests:</label>
+            <input type="checkbox" id="web" name="interests" value="Web">
+            <label for="web">Web</label>
+
+            <input type="checkbox" id="dsa" name="interests" value="DSA">
+            <label for="dsa">DSA</label>
+            <br><br>
+
+            <!-- Branch -->
+            <label for="branch">Branch:</label>
+            <select id="branch" name="branch">
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Civil">Civil</option>
+            </select>
+            <br><br>
+
+            <!-- Message -->
+            <label for="message">Why do you want to join?</label>
+            <br>
+            <textarea id="message" name="message"
+                      rows="4" cols="32"></textarea>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+
+        </form>
+    </section>
+
+</body>
+</html>
