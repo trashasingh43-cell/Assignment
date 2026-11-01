@@ -68,3 +68,9 @@
         button:hover {
             background-color: #2345c7;
         }
+
+              #hero {
+            background-color: rgb(6, 6, 215);
+            color: white;
+            padding: 25px;
+            text-align: center;}
