@@ -4,6 +4,8 @@
             background-color: #f0f3ff;
             margin: 0;
             padding: 20px;
+               font-size: 16px;
+            line-height: 1.6;
         }
 
         .container {
@@ -21,6 +23,8 @@
 
         header h1 {
             font-size: 36px;
+        
+            line-height: 1.2;
         }
 
         .card {
@@ -28,10 +32,14 @@
             padding: 20px;
             margin-top: 20px;
             border-radius: 10px;
+             font-size: 16px;
+            line-height: 1.6;
         }
 
         h2 {
             color: #222;
+             font-size: 26px;
+            line-height: 1.4;
         }
 
         table {
@@ -73,4 +81,6 @@
             background-color: rgb(6, 6, 215);
             color: white;
             padding: 25px;
-            text-align: center;}
+            text-align: center;
+         font-size: 18px;
+            line-height: 0.8;}
