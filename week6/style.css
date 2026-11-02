@@ -139,3 +139,16 @@ body {
 
     margin: 0 auto 25px;
 }
+/* 6.3 Scrollable Bio */
+
+.bio {
+    height: 115px;
+    overflow: auto;
+
+    border: 1px solid #ccc;
+    padding: 10px;
+
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.3;
+}
