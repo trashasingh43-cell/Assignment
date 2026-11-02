@@ -135,3 +135,33 @@ body {
     font-weight: bold;
 }
 
+/* 7.4 Complete Landing Page Styling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+.nav-button:hover,
+.hero-button:hover {
+    background-color: #0ea5e9;
+    transform: translateY(-2px);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
