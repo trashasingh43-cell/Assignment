@@ -79,3 +79,63 @@ body {
     padding: 10px;
     text-align: left;
 }
+/* 6.2 Two Colour Versions */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    padding: 35px;
+}
+
+.profile-card {
+    width: 400px;
+    background-color: white;
+
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+/* Blue Theme */
+
+.blue-card {
+    border-color: royalblue;
+}
+
+.blue-card .avatar {
+    background-color: royalblue;
+}
+
+/* Pink Theme */
+
+.pink-card {
+    border-color: #e75480;
+}
+
+.pink-card .avatar {
+    background-color: #e75480;
+}
+
+/* Circular Avatar */
+
+.avatar {
+    width: 130px;
+    height: 130px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 45px;
+
+    margin: 0 auto 25px;
+}
