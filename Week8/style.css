@@ -71,6 +71,7 @@ body {
 .card h3 {
     color: #1d4ed8;
     margin-bottom: 8px;
+    font-size: 14px;
 }
 
 .card p {
@@ -106,4 +107,37 @@ body {
 
 .foot {
     grid-area: foot;
+}
+
+/* 8.4 - Flexbox inside Grid Cards */
+
+.card {
+    display: flex;
+
+    /* Place icon and text side by side */
+    flex-direction: row;
+
+    /* Align items vertically */
+    align-items: center;
+
+    gap: 15px;
+
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 120px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.card h3 {
+    color: #1d4ed8;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: #64748b;
 }
