@@ -1,0 +1,49 @@
+
+/* 8.1 - Basic CSS Grid */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+.dashboard {
+    display: grid;
+
+    /* Creating columns using the fr unit */
+    grid-template-columns: 1fr 3fr;
+
+    /* Space between grid items */
+    gap: 15px;
+
+    padding: 15px;
+}
+
+.head {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+}
+
+.side {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.main {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.foot {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
