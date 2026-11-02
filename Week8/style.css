@@ -141,3 +141,36 @@ body {
 .card p {
     color: #64748b;
 }
+
+/* 8.5 - Responsive Dashboard */
+
+@media (max-width: 600px) {
+
+    .dashboard {
+        grid-template-columns: 1fr;
+
+        grid-template-areas:
+            "head"
+            "side"
+            "main"
+            "foot";
+    }
+
+    .head {
+        text-align: center;
+    }
+
+    .side nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .side nav a {
+        text-decoration: none;
+        color: #1e293b;
+        background-color: #f1f5f9;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
