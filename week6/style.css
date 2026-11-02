@@ -1,0 +1,81 @@
+/* 6.1 Box Model */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #edf2f9;
+}
+
+/* Top Bar */
+
+.top-bar {
+    background-color: #14233e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Profile Container */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+/* Profile Card */
+
+.profile-card {
+    width: 400px;
+    background-color: white;
+
+    padding: 25px;
+    margin: 0;
+
+    border: 2px solid royalblue;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+/* Avatar */
+
+.avatar {
+    width: 130px;
+    height: 130px;
+
+    background-color: royalblue;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 45px;
+
+    margin: 0 auto 25px;
+}
+
+/* Profile Text */
+
+.profile-card h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.role {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.bio {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
