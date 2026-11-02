@@ -76,3 +76,34 @@ body {
 .card p {
     color: #64748b;
 }
+
+/* 8.3 - Named Grid Areas */
+
+.dashboard {
+    display: grid;
+
+    grid-template-columns: 220px 1fr;
+
+    grid-template-areas:
+        "head head"
+        "side main"
+        "foot foot";
+
+    gap: 15px;
+}
+
+.head {
+    grid-area: head;
+}
+
+.side {
+    grid-area: side;
+}
+
+.main {
+    grid-area: main;
+}
+
+.foot {
+    grid-area: foot;
+}
