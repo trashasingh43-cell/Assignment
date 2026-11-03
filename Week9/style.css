@@ -103,3 +103,44 @@ footer {
     text-align: center;
     padding: 1.5rem;
 }
+* Step 9.2: Responsive images and rem units */
+
+/* Images should never overflow their containers */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive typography using rem */
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links a {
+    font-size: 1rem;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+}
+
+.btn {
+    font-size: 1rem;
+}
+
+.features h2 {
+    font-size: 1.8rem;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+}
+
+.card p {
+    font-size: 1rem;
+}
